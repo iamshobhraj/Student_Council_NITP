@@ -56,9 +56,13 @@ export default function ComplaintForm () {
             required
           >
             <option value="">Select category</option>
-            <option value="product">Product</option>
-            <option value="service">Service</option>
-            <option value="other">Other</option>
+            <option value="product">Hostel related query</option>
+            <option value="service">Mess food related query</option>
+            <option value="other">Faculty related query</option>
+            <option value="other">Academics related query</option>
+            <option value="other"> others</option>
+
+
           </select>
         </div>
 
@@ -83,6 +87,4 @@ export default function ComplaintForm () {
       </form>
     </div>
   );
-};
-
-
+}
