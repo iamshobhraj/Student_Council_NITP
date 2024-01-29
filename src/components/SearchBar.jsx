@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { getSong } from "./api";
 
 export default function SearchBar() {
   const [searchInput, setSearchInput] = useState("");
