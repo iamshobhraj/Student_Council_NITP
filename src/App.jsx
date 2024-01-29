@@ -2,6 +2,7 @@
 import './App.css'
 import Complainlist from './components/complainlist'
 import SideBar from './components/SideBar'
+import Feedback from './components/Feedback'
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
     <div className='flex'>
     <SideBar />
     <div className='w-3/4'>
+      <Complainlist/>
+      <Feedback/>
 
     </div>
 
